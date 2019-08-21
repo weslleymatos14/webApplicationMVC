@@ -17,7 +17,8 @@ namespace WebApplicationMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Salles App";
+            ViewData["Student"] = "Weslley Matos";
 
             return View();
         }
@@ -25,6 +26,7 @@ namespace WebApplicationMVC.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+            ViewData["Email"] = "weslleymatos14@gmail.com";
 
             return View();
         }
